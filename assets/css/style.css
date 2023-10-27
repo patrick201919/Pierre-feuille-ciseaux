@@ -1,0 +1,193 @@
+/* GENERALITIES */
+:root {
+    --color: #323
+}
+
+@font-face {
+    font-family: 'teslaregular';
+    src: url('../font/tesla-webfont.woff2') format('woff2'),
+        url('../font/tesla-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexjcc {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+body {
+    background-color: #F2E8CF;
+    color: #386641;
+    /* background: rgb(167, 201, 87); */
+    background: linear-gradient(90deg, rgba(167, 201, 87, 1) 1%, rgba(242, 225, 207, 1) 34%);
+    outline: none;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: .6rem;
+}
+
+button {
+    all: unset;
+    background-color: #FFf;
+    font-weight: bold;
+}
+
+
+/* ****************** */
+
+.container h1 {
+    text-align: center;
+    color: #BC4749;
+    font-family: 'teslaregular';
+}
+
+
+.conatainerCounter {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.conatainerCounter p {
+    margin: .3rem;
+}
+
+.counterPlayer {
+    margin-right: 1rem;
+}
+
+.btnCounter {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: .3rem;
+    color: #A7C957;
+}
+
+.containerPart {
+    position: relative;
+}
+
+.displayNone {
+    display: none;
+}
+
+.playerPopFace {
+    position: absolute;
+    margin: 0 auto;
+    width: 200px;
+    height: 350px;
+    opacity: .98;
+}
+
+.playerPopFace1 {
+    width: 200px;
+    height: 260px;
+    background-color: #386641;
+    color: #00AFB9;
+    margin: 0 auto;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.4rem;
+
+
+}
+
+.playerPopFace2 {
+    margin-left: -100px;
+    width: 400px;
+    height: 100px;
+    background-color: #386641;
+    opacity: .3;
+    border-radius: .3rem;
+}
+
+.playerPopFace3 {
+    margin-top: -100px;
+    margin-left: -100px;
+    width: 400px;
+    height: 90px;
+    background-color: #386641;
+    border-radius: .3rem;
+    opacity: .3;
+}
+
+
+.playerChoice,
+.computerChoice {
+    width: 160px;
+    height: 160px;
+    border-radius: .6rem;
+    box-shadow: 0 .1rem .4rem 0;
+}
+
+#playerChoiceId,
+#computerChoiceId {
+    border-radius: .6rem;
+}
+
+.btnScore {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 2rem;
+    text-align: center;
+    color: #386641;
+    border-radius: .2rem;
+    color: #00AFB9;
+
+
+}
+
+.btnReset {
+    display: block;
+    margin: 2rem auto;
+    cursor: pointer;
+    color: #BC4749;
+    width: 4rem;
+    height: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #A7C957;
+    border-radius: .3rem;
+    font-size: 1.2rem;
+
+}
+
+.imgPierreFeuilleCiseaux {
+    margin: 3rem 0;
+}
+
+.ClassPlayerChoice {
+    width: 100px;
+    height: 70px;
+    border-radius: .6rem;
+    box-shadow: 0 .1rem .4rem 0;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.versus {
+    font-size: 2.2rem;
+    color: #BC4749;
+    font-weight: bold;
+}

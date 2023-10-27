@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pierre Feuille Ciseaux</h1>
+        <div class="conatainerCounter flexjcc ">
+            <div class="counterPlayer">
+                <p>Player</p>
+                <button class="btnCounter" id="counterPlayer">0</button>
+            </div>
+            <div class="counterComputer ">
+                <p>Computer</p>
+                <button class="btnCounter" id="counterComputer">0</button>
+            </div>
+        </div>
+        <article class="containerPart flexjcc">
+            <div class="playerSide flex">
+                <div class="playerChoice">
+                    <img id="playerChoiceId">
+                </div>
+                <button class="scorePlayer btnScore">0</button>
+            </div>
+            <div class="versus flex">
+                <p>VS</p>
+            </div>
+            <div class="computerSide flex">
+                <button class="scoreComputer btnScore">0</button>
+                <div class="computerChoice">
+                    <img id="computerChoiceId">
+                </div>
+            </div>
+        </article>
+        <button class="btnReset" id="resetAll">Reset</button>
+        <article class="imgPierreFeuilleCiseaux flexjcc">
+            <div class="imgPierre ClassPlayerChoice">
+                <img src="assets/media/pierre.png" alt="pierre" class="ClassPlayerChoiceImg" id="idPierre">
+            </div>
+            <div class="imgFeuille ClassPlayerChoice">
+                <img src="assets/media/feuille.png" alt="feuille" class="ClassPlayerChoiceImg" id="idFeuille">
+            </div>
+            <div class="imgCiseaux ClassPlayerChoice">
+                <img src="assets/media/ciseaux.png" alt="ciseaux" class="ClassPlayerChoiceImg" id="idSiceaux">
+            </div>
+        </article>
+
+    </div>
+    <script src="js/scirpt.js"></script>
+
+</body>
+
+</html>
